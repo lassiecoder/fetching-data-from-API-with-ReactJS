@@ -1,0 +1,46 @@
+.App {
+  width: 90%;
+  margin: 10vh auto;
+  font-family: "Roboto", sans-serif;
+}
+
+#topic {
+  text-align: center;
+  margin: 8vh 0;
+  color: rgb(59, 59, 59);
+  font-size: 2vw;
+}
+
+#loading {
+  width: 10%;
+  font-size: 3vw;
+  margin: auto;
+  margin-top: 40vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2vw;
+}
+
+.container .childContainer {
+  border: 0.2vh solid rgb(190, 190, 190);
+  padding: 1vw;
+}
+
+.container .childContainer h1 {
+  font-size: 1.5vw;
+  text-decoration: underline;
+  color: rgb(77, 75, 75);
+}
+
+.container h5 {
+  color: rgb(77, 75, 75);
+  font-size: 1vw;
+}
+
+.details {
+  display: inline-block;
+  margin: 1vw 2vw;
+}
