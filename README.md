@@ -4,6 +4,6 @@
 
 #### I've used two states _"items"_ which is an array and another boolean state _"isLoaded"_ to get to know when the items have been loaded from the API
 
-#### _componentDidMount()_ method to make API calls, inside that I've used fetch method to get the JSON data to save inside _"App_ component, inside the state to reuse it inside the component.
+#### _componentDidMount()_ method to make API calls, inside that I've used fetch method to get the JSON data to save inside _"App"_ component, inside the state to reuse it inside the component.
 
 #### Took the states _"isLoaded" and "items"_ inside the main function. _"isLoaded"_ function will work while the data is loading and _"return()"_ function will work once the JSON data loaded successfully.
